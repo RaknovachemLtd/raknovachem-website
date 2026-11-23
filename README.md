@@ -4,8 +4,8 @@ A four-page static website (plain HTML, CSS and JavaScript). There is no build s
 
 | Page | File | What it has |
 |---|---|---|
-| Home | `index.html` | Hero, who we are, key strengths, 6 product categories, industries served, leadership, vision/mission |
-| Products | `products.html` | 20 products in 6 categories with photo, function and applications; search, filters, WhatsApp "Enquire", application matrix, technical support |
+| Home | `index.html` | Hero, who we are, key strengths, 7 product categories, industries served, leadership, vision/mission |
+| Products | `products.html` | 30 product lines in 7 categories (incl. agrochemicals: technical & formulated pesticides, herbicides, fungicides, PGR) with function and applications; search, filters, WhatsApp "Enquire", application matrix, technical support |
 | About Us | `about.html` | Who we are, directors with bios, operating principles, supply process, QA gates, Pune base |
 | Contact | `contact.html` | WhatsApp, phone, email, address, enquiry form, map, catalogue PDF download |
 
