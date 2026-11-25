@@ -427,3 +427,10 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--t
 .cat-extra .icon { background: rgba(159,224,236,.14); color: #9fe0ec; }
 .cat-extra .more { color: #9fe0ec; margin-top: 6px; text-decoration: none; }
 .cat-extra:hover { border-color: var(--navy); }
+
+/* Inner-page banners with photo */
+.page-hero.has-photo::before { opacity: .45; }
+.ph-photo { position: absolute; inset: 0; z-index: -2; }
+.ph-photo img { width: 100%; height: 100%; object-fit: cover; }
+.ph-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,29,71,.92) 0%, rgba(20,29,71,.72) 45%, rgba(20,29,71,.25) 100%); }
+@media (max-width: 760px) { .ph-photo::after { background: rgba(20,29,71,.75); } }
